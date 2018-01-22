@@ -38,13 +38,24 @@ const machine1 = UMW.make({name: 'JP', speed: 0}, {
             action: (state, args) => {
                 return Object.assign({}, state, {speed: 0})
             }
-        }
+        },
+        'ACCELERATE_BY': {
+            to: 'MOVING',
+            action: (state, args) => {
+                return Object.assign({}, state, {speed: state.speed + args.speed})
+            }
+        },
     }
 })
 
+machine1.addSubscriber((state, data) => {
+    console.log(`Speed: ${data.speed}`)
+})
 console.log(machine1.actions)
 machine1.do('MOVE')
 console.log(machine1.actions)
 console.log(machine1.get('speed'))
-machine1.do('ACCELERATE')
+machine1.do('ACCELERATE_BY', {speed: 6})
+console.log(machine1.get('speed'))
+machine1.do('ACCELERATE_BY', {speed: 3})
 console.log(machine1.get('speed'))
