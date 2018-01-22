@@ -16,7 +16,11 @@ This is a simple 1KB state machine for front-end web development.
 ## How to use
 ### Import on the browser
 ```html
-
+<script src="https://cdn.jsdelivr.net/npm/unlimited-machine-works@1.0.0/umw.min.js" async></script>
+```
+### Import on Node
+```js
+const UMW = require('unlimited-machine-works')
 ```
 
 ## API
