@@ -1,7 +1,7 @@
 {
-  "name": "@johnpaulada/unlimited-machine-works",
+  "name": "unlimited-machine-works",
   "version": "1.0.0",
-  "description": "An unlimited working state machine for the web!",
+  "description": "The unlimited working 1KB state machine for the web!",
   "main": "index.js",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -21,7 +21,9 @@
     "state machine",
     "unlimited",
     "machine",
-    "works"
+    "works",
+    "javascript",
+    "state management"
   ],
   "author": "John Paul Ada",
   "license": "MIT"
