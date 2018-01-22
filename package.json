@@ -1,0 +1,28 @@
+{
+  "name": "@johnpaulada/unlimited-machine-works",
+  "version": "1.0.0",
+  "description": "An unlimited working state machine for the web!",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnpaulada"
+  },
+  "keywords": [
+    "state machine",
+    "unlimited",
+    "machine",
+    "works"
+  ],
+  "author": "John Paul Ada",
+  "license": "MIT"
+}
