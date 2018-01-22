@@ -8,8 +8,8 @@ The unlimited working 1KB state machine for the web!
 This is a simple 1KB state machine for front-end web development. 
 
 ## Table of Contents
-- [How to use](#how-to-use)
-- [API](#api)
+- [How to import](#how-to-import)
+- [Quickstart](#quickstart)
 - [Inspired by](#inspired-by)
 - [License](#license)
 
@@ -23,7 +23,7 @@ This is a simple 1KB state machine for front-end web development.
 const UMW = require('unlimited-machine-works')
 ```
 
-## API
+## Quickstart
 
 ## Inspired By
 - Stent
