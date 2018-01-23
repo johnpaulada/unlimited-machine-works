@@ -9,7 +9,7 @@
 const users = [
   {
     caption: 'John Paul Ada',
-    image: '/test-site/img/docusaurus.svg',
+    image: '/img/docusaurus.svg',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
@@ -22,10 +22,10 @@ const siteConfig = {
   baseUrl: '/' /* base url for your project */,
   projectName: 'unlimited-machine-works',
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'intro', label: 'Docs'},
+    {doc: 'summon', label: 'API'},
     {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    // {blog: true, label: 'Blog'},
   ],
   users,
   /* path to images for header/footer */
@@ -34,8 +34,8 @@ const siteConfig = {
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#03A9F4',
+    secondaryColor: '#0288D1',
   },
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:

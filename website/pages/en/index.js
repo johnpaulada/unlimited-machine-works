@@ -80,9 +80,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            {/* <Button href="#try">Try It Out</Button> */}
+            <Button href={docUrl('intro.html', language)}>Getting Started</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -103,16 +102,28 @@ const Features = props => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
+        content: 'You know exactly what can happen when you are in a certain state.',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'Predictable',
       },
       {
-        content: 'The content of my second feature',
+        content: 'Define your machine states and transitions upon creating the machine.',
         image: imgUrl('docusaurus.svg'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'Declarative',
+      },
+      {
+        content: 'You can react to every change to the machine.',
+        image: imgUrl('docusaurus.svg'),
+        imageAlign: 'top',
+        title: 'Reactive',
+      },
+      {
+        content: 'Weighs only 1KB!',
+        image: imgUrl('docusaurus.svg'),
+        imageAlign: 'top',
+        title: 'Lightweight',
       },
     ]}
   </Block>
@@ -141,16 +152,11 @@ const LearnHow = props => (
 );
 
 const TryOut = props => (
-  <Block id="try">
-    {[
-      {
-        content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
-        imageAlign: 'left',
-        title: 'Try it Out',
-      },
-    ]}
-  </Block>
+  <div className="section promoSection">
+    <div className="promoRow">
+      <div className="pluginRowBlock">{props.children}</div>
+    </div>
+  </div>
 );
 
 const Description = props => (
@@ -205,11 +211,14 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase language={language} />
+          {/* <FeatureCallout /> */}
+          <TryOut>
+            <h2>{"Try it out!"}</h2>
+            <iframe name="try" height="600px" width="100%" src="https://repl.it/@JohnPaulAda/SpecificFormalAsiantrumpetfish?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+          </TryOut>
+          {/* <LearnHow />
+          <Description /> */}
+          {/* <Showcase language={language} /> */}
         </div>
       </div>
     );

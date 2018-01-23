@@ -3,20 +3,17 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
-    "doc1": "Latin-ish",
-    "Example Page": "Example Page",
-    "doc2": "document number 2",
-    "doc3": "This is document number 3",
-    "doc4": "Other Document",
-    "doc5": "Fifth Document",
+    "tagline": "The unlimited working 1KB state machine library for the web!",
+    "do": "do",
+    "intro": "Getting Started",
+    "Getting Started": "Getting Started",
+    "summon": "summon",
     "Docs": "Docs",
     "API": "API",
     "Help": "Help",
-    "Blog": "Blog",
-    "Docusaurus": "Docusaurus",
-    "First Category": "First Category",
-    "Second Category": "Second Category"
+    "Basics": "Basics",
+    "UMW Methods": "UMW Methods",
+    "Machine Methods": "Machine Methods"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
