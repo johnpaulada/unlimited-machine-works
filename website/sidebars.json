@@ -1,13 +1,15 @@
 {
   "docs": {
-    "Basics": ["intro"]
+    "Basics": ["intro", "machines"],
+    "Examples": ["app-example"],
+    "Advanced": ["dynamic-add-state"]
   },
   "api": {
     "UMW Methods": [
-      "summon"
+      "summon", "make"
     ],
     "Machine Methods": [
-      "do"
+      "do", "is", "get", "add-subscriber"
     ]
   }
 }

@@ -18,13 +18,13 @@ const users = [
 const siteConfig = {
   title: 'Unlimited Machine Works' /* title for your website */,
   tagline: 'The unlimited working 1KB state machine library for the web!',
-  url: 'https://github.com/johnpaulada/unlimited-machine-works' /* your website url */,
+  url: 'https://unlimited-machine-works.surge.sh' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   projectName: 'unlimited-machine-works',
   headerLinks: [
     {doc: 'intro', label: 'Docs'},
     {doc: 'summon', label: 'API'},
-    {page: 'help', label: 'Help'},
+    // {page: 'help', label: 'Help'},
     // {blog: true, label: 'Blog'},
   ],
   users,
@@ -38,10 +38,10 @@ const siteConfig = {
     secondaryColor: '#0288D1',
   },
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-  copyright:
-    'Copyright © ' +
-    new Date().getFullYear() +
-    ' John Paul Ada',
+  // copyright:
+  //   'Copyright © ' +
+  //   new Date().getFullYear() +
+  //   ' John Paul Ada',
   // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
   // projectName: 'test-site', // or set an env variable PROJECT_NAME
   highlight: {

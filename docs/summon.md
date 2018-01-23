@@ -1,6 +1,7 @@
 ---
 id: summon
-title: summon
+title: summon()
+sidebar_label: summon()
 ---
 
-About the `summon` method.
+I'll add to this a little bit later.

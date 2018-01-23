@@ -152,11 +152,11 @@ const LearnHow = props => (
 );
 
 const TryOut = props => (
-  <div className="section promoSection">
-    <div className="promoRow">
-      <div className="pluginRowBlock">{props.children}</div>
-    </div>
-  </div>
+  <Container background="light" padding={['bottom', 'top']}>
+    <h2 style={{fontSize: '32pt'}}>Try it out!</h2>
+    <p>Run and play with the example to see what Unlimited Machine Works can do!</p>
+    <iframe name="try" height="600px" width="100%" style={{marginTop: "20px"}} src="https://repl.it/@JohnPaulAda/SpecificFormalAsiantrumpetfish?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+  </Container>
 );
 
 const Description = props => (
@@ -212,10 +212,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           {/* <FeatureCallout /> */}
-          <TryOut>
-            <h2>{"Try it out!"}</h2>
-            <iframe name="try" height="600px" width="100%" src="https://repl.it/@JohnPaulAda/SpecificFormalAsiantrumpetfish?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-          </TryOut>
+          <TryOut />
           {/* <LearnHow />
           <Description /> */}
           {/* <Showcase language={language} /> */}
