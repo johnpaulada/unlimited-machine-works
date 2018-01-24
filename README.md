@@ -113,6 +113,13 @@ machine.addSubscriber((state, data) => {
 })
 ```
 
+## Roadmap
+- [ ] Using asynchronous functions for subscribers and other things
+- [ ] Using Proxy objects to detect change
+- [ ] Data diffing
+- [ ] Adding `summon()` flag for verbose errors
+- [ ] Adding subscribers as a part of the spec and moving `addSubscribers()` in to an *Adding Subscribers Dynamically* section.
+
 ## Inspired By
 - Stent
 - Hyperapp

@@ -9,7 +9,7 @@
       "summon", "make"
     ],
     "Machine Methods": [
-      "do", "is", "get", "add-subscriber"
+      "do", "is", "get", "add-subscriber", "make-state"
     ]
   }
 }
