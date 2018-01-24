@@ -76,7 +76,7 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
+        <Logo img_src={imgUrl('two-katanas.svg')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
@@ -103,25 +103,25 @@ const Features = props => (
     {[
       {
         content: 'You know exactly what can happen when you are in a certain state.',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('in-love.svg'),
         imageAlign: 'top',
         title: 'Predictable',
       },
       {
         content: 'Define your machine states and transitions upon creating the machine.',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('school-material.svg'),
         imageAlign: 'top',
         title: 'Declarative',
       },
       {
         content: 'You can react to every change to the machine.',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('lightning.svg'),
         imageAlign: 'top',
         title: 'Reactive',
       },
       {
         content: 'Weighs only 1KB!',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('wings.svg'),
         imageAlign: 'top',
         title: 'Lightweight',
       },
