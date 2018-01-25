@@ -4,6 +4,8 @@
   <p><strong>Work in Progress</strong> - Use at your own risk! LOL</p>
 </div>
 
+[![DeepScan Grade](https://deepscan.io/api/projects/1706/branches/7351/badge/grade.svg)](https://deepscan.io/dashboard/#view=project&pid=1706&bid=7351)
+
 <div align="center">
   <a href="http://forthebadge.com">
     <img src="http://forthebadge.com/images/badges/fuck-it-ship-it.svg" />
@@ -13,6 +15,12 @@
   </a>
   <a href="http://forthebadge.com">
     <img src="http://forthebadge.com/images/badges/uses-js.svg" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://deepscan.io/dashboard/#view=project&pid=1706&bid=7351">
+    <img src="https://deepscan.io/api/projects/1706/branches/7351/badge/grade.svg" />
   </a>
 </div>
 
