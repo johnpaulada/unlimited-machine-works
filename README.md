@@ -1,7 +1,9 @@
 <div align="center">
   <h1>Unlimited <strike>Blade</strike> Machine Works</h1>
   The unlimited working 1KB state machine library for the web!
+</div>
 
+<div align="center">
   <a href="http://forthebadge.com">
     <img src="http://forthebadge.com/images/badges/fuck-it-ship-it.svg" />
   </a>
@@ -13,9 +15,10 @@
   </a>
 </div>
 
-This is a simple lightweight state machine library for front-end web development.
-
-**Work in Progress** - Use at your own risk! LOL
+<div align="center">
+  This is a simple lightweight state machine library for front-end web development.
+  <strong>Work in Progress</strong> - Use at your own risk! LOL
+</div>
 
 ## Table of Contents
 - [Rationale](#rationale)
