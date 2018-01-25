@@ -1,5 +1,6 @@
 <div align="center">
   <h1>⚔ Unlimited <strike>Blade</strike> Machine Works ⚔</h1>
+  <img src="website/static/img/daggers.svg" />
   <p>The unlimited working 1KB state machine library for the web!</p>
   <p><strong>Work in Progress</strong> - Use at your own risk! LOL</p>
 </div>
