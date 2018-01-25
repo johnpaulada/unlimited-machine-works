@@ -1,11 +1,17 @@
 <div align="center">
-  <h1>Unlimited <strike>Blade</strike> Machine Works</h2>
-  <blockquote>The unlimited working 1KB state machine library for the web!</blockquote>
-</div>
+  <h1>Unlimited <strike>Blade</strike> Machine Works</h1>
+  The unlimited working 1KB state machine library for the web!
 
-[![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
+  <a href="http://forthebadge.com">
+    <img src="http://forthebadge.com/images/badges/fuck-it-ship-it.svg" />
+  </a>
+  <a href="http://forthebadge.com">
+    <img src="http://forthebadge.com/images/badges/built-with-love.svg" />
+  </a>
+  <a href="http://forthebadge.com">
+    <img src="http://forthebadge.com/images/badges/uses-js.svg" />
+  </a>
+</div>
 
 This is a simple lightweight state machine library for front-end web development.
 
