@@ -1,11 +1,11 @@
 # Unlimited ~~Blade~~ Machine Works
-The unlimited working 1KB state machine library for the web!
+> The unlimited working 1KB state machine library for the web!
 
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
 
-This is a simple 1KB state machine library for front-end web development.
+This is a simple lightweight state machine library for front-end web development.
 
 **Work in Progress** - Use at your own risk! LOL
 
@@ -13,6 +13,7 @@ This is a simple 1KB state machine library for front-end web development.
 - [Rationale](#rationale)
 - [How to import](#how-to-import)
 - [Quickstart](#quickstart)
+- [Roadmap](#roadmap)
 - [Inspired by](#inspired-by)
 - [License](#license)
 
