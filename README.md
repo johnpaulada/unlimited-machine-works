@@ -138,7 +138,7 @@ machine.addSubscriber((state, data) => {
 - [ ] Data diffing
 - [ ] Adding `summon()` flag for verbose errors
 - [ ] Adding subscribers as a part of the spec
-- [ ] Move `addSubscribers()` in to an *Adding Subscribers Dynamically* section.
+- [ ] Move `addSubscribers()` in to an *Adding Subscribers Dynamically* section
 - [ ] Add tests
 - [ ] Add status badges
 - [ ] Add flow
