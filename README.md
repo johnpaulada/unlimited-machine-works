@@ -1,6 +1,8 @@
 <div align="center">
   <h1>Unlimited <strike>Blade</strike> Machine Works</h1>
-  The unlimited working 1KB state machine library for the web!
+  <p>⚔⚙⚛</p>
+  <p>The unlimited working 1KB state machine library for the web!</p>
+  <p><strong>Work in Progress</strong> - Use at your own risk! LOL</p>
 </div>
 
 <div align="center">
@@ -16,8 +18,7 @@
 </div>
 
 <div align="center">
-  <p>This is a simple lightweight state machine library for front-end web development.</p>
-  <p><strong>Work in Progress</strong> - Use at your own risk! LOL</p>
+  <sub>Built with ♥ by <a href="https://github.com/johnpaulada">John Paul Ada</a>.</sub>
 </div>
 
 ## Table of Contents
