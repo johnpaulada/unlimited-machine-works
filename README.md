@@ -16,8 +16,8 @@
 </div>
 
 <div align="center">
-  This is a simple lightweight state machine library for front-end web development.
-  <strong>Work in Progress</strong> - Use at your own risk! LOL
+  <p>This is a simple lightweight state machine library for front-end web development.</p>
+  <p><strong>Work in Progress</strong> - Use at your own risk! LOL</p>
 </div>
 
 ## Table of Contents
