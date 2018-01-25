@@ -1,5 +1,7 @@
-# Unlimited ~~Blade~~ Machine Works
-> The unlimited working 1KB state machine library for the web!
+<div align="center">
+  <h1>Unlimited <strike>Blade</strike> Machine Works</h2>
+  <blockquote>The unlimited working 1KB state machine library for the web!</blockquote>
+</div>
 
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
@@ -120,6 +122,8 @@ machine.addSubscriber((state, data) => {
 - [ ] Data diffing
 - [ ] Adding `summon()` flag for verbose errors
 - [ ] Adding subscribers as a part of the spec and moving `addSubscribers()` in to an *Adding Subscribers Dynamically* section.
+- [ ] Add tests
+- [ ] Add status badges
 
 ## Inspired By
 - Stent
