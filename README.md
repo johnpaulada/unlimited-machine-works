@@ -1,6 +1,5 @@
 <div align="center">
-  <h1>Unlimited <strike>Blade</strike> Machine Works</h1>
-  <p>⚔⚙⚛</p>
+  <h1>⚔ Unlimited <strike>Blade</strike> Machine Works ⚔</h1>
   <p>The unlimited working 1KB state machine library for the web!</p>
   <p><strong>Work in Progress</strong> - Use at your own risk! LOL</p>
 </div>
