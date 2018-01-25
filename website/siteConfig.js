@@ -29,8 +29,8 @@ const siteConfig = {
   ],
   users,
   /* path to images for header/footer */
-  headerIcon: 'img/two-katanas.svg',
-  footerIcon: 'img/two-katanas.svg',
+  headerIcon: 'img/daggers.svg',
+  footerIcon: 'img/daggers.svg',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
