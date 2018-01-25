@@ -133,6 +133,7 @@ machine.addSubscriber((state, data) => {
 - [ ] Adding subscribers as a part of the spec and moving `addSubscribers()` in to an *Adding Subscribers Dynamically* section.
 - [ ] Add tests
 - [ ] Add status badges
+- [ ] Add flow
 
 ## Inspired By
 - Stent
