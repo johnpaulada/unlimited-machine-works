@@ -4,4 +4,4 @@ title: make()
 sidebar_label: make()
 ---
 
-Synonym of `summon`.
+Synonym of `summon()` for normies.

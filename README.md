@@ -142,6 +142,7 @@ machine.addSubscriber((state, data) => {
 - [ ] Add tests
 - [ ] Add status badges
 - [ ] Add flow
+- [ ] Create react-umw
 
 ## Inspired By
 - Stent

@@ -10,6 +10,9 @@
     ],
     "Machine Methods": [
       "do", "is", "get", "add-subscriber", "make-state"
+    ],
+    "State Methods": [
+      "add-transition"
     ]
   }
 }
