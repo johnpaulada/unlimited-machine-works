@@ -6,6 +6,8 @@
     "tagline": "The unlimited working 1KB state machine library for the web!",
     "add-subscriber": "addSubscriber()",
     "addSubscriber()": "addSubscriber()",
+    "add-transition": "addTransition()",
+    "addTransition()": "addTransition()",
     "app-example": "Example Web App",
     "Example Web App": "Example Web App",
     "do": "do()",
@@ -32,7 +34,8 @@
     "Examples": "Examples",
     "Advanced": "Advanced",
     "UMW Methods": "UMW Methods",
-    "Machine Methods": "Machine Methods"
+    "Machine Methods": "Machine Methods",
+    "State Methods": "State Methods"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

@@ -51,6 +51,10 @@ const siteConfig = {
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
   repoUrl: 'https://github.com/johnpaulada/unlimited-machine-works',
+  algolia: {
+    apiKey: "8ca37dd7d4221e327f63d2a0cf829c78",
+    indexName: "unlimited_machine_works"
+  },
 };
 
 module.exports = siteConfig;
