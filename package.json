@@ -12,7 +12,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup src/index.js --o index.js -f umd --name 'UMW' && cp index.js umw.min.js"
+    "build": "rollup src/index.js --o index.js -f umd --name 'UMW' && cp index.js umw.min.js",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
