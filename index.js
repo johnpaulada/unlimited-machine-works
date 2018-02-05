@@ -1,1 +1,95 @@
-!function(n,r){"object"==typeof exports&&"undefined"!=typeof module?module.exports=r():"function"==typeof define&&define.amd?define(r):n.UMW=r()}(this,function(){"use strict";var n=function(n){var r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:null,t={},e=n||{},i=null,o=[],a=function(n){if(n in t)throw new Error("State already exists: "+n);var r={},o={addTransition:function(n,t,i){var o,a,f;r=Object.assign({},r,(f=function(){for(var n=arguments.length,r=Array(n),o=0;o<n;o++)r[o]=arguments[o];return[t,i?i.apply(void 0,[e].concat(r)):e]},(a=n)in(o={})?Object.defineProperty(o,a,{value:f,enumerable:!0,configurable:!0,writable:!0}):o[a]=f,o))},get name(){return n},get transitions(){return r}};return i||(i=o),t[n]=o,o};if(r){for(var f in r)a(f);for(var u in r){var s=t[u],c=r[u];for(var d in c)s.addTransition(d,t[c[d].to],c[d].action)}}return{is:function(n){return i.name===n},get:function(n){if(n in e)return e[n];throw new Error(n+" does not exist.")},get actions(){return i.transitions?Object.keys(i.transitions):[]},get states(){return Object.keys(t)},makeState:a,do:function(n){for(var r=arguments.length,t=Array(r>1?r-1:0),a=1;a<r;a++)t[a-1]=arguments[a];var f=i.transitions;if(n in f){var u=f[n].apply(void 0,t);i=u[0],e=u[1],o.forEach(function(n){n(i.name,e)})}},addSubscriber:function(n){o=[].concat(function(n){if(Array.isArray(n)){for(var r=0,t=Array(n.length);r<n.length;r++)t[r]=n[r];return t}return Array.from(n)}(o),[n])}}};return Object.freeze({make:n,summon:n})});
+(function (global, factory) {
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.UMW = factory());
+}(this, (function () { 'use strict';
+
+const make = (initialData, config = null) => {
+  let states       = {};
+  let data         = initialData || {};
+  let currentState = null;
+  let subscribers  = [];
+
+  const makeState = name => {
+    if (name in states) throw new Error(`State already exists: ${name}`)
+
+    let transitions = {};
+
+    const createdState = {
+      addTransition: (transitionName, state, reducer) => {
+        const transition = (...args) => [state, reducer ? reducer(data, ...args) : data];
+        transitions = Object.assign({}, transitions, {[transitionName]: transition});
+      },
+      get name() {return name},
+      get transitions() {return transitions}
+    };
+
+    if (!currentState) currentState = createdState;
+    states[name] = createdState;
+
+    return createdState
+  };
+
+  if (config) {
+    for (let state in config) {
+      makeState(state);
+    }
+
+    for (let state in config) {
+      const stateObject = states[state];
+      const configState = config[state];
+
+      for (let action in configState) {
+        stateObject.addTransition(action, states[configState[action]['to']], configState[action]['action']);
+      }
+    }
+  }
+
+  const machine = {
+    is: state => currentState.name === state,
+    get: name => {
+      if (name in data) {
+        return data[name]
+      } else {
+        throw new Error(`${name} does not exist.`)
+      }
+    },
+    get actions() {
+      return currentState.transitions ? Object.keys(currentState.transitions) : []
+    },
+    get states() {
+      return Object.keys(states)
+    },
+    get data() {
+      return data
+    },
+    makeState,
+    do: (action, ...args) => {
+      const transitionList = currentState.transitions;
+
+      if (action in transitionList) {
+        const transition = transitionList[action];
+        const result = transition(...args);
+        currentState = result[0];
+        data = result[1];
+        subscribers.forEach(subscriber => {
+          subscriber(currentState.name, data);
+        });
+      }
+    },
+    addSubscriber: callback => {
+      subscribers = [...subscribers, callback];
+    }
+  };
+
+  return machine
+};
+
+const UMW = Object.freeze({
+  make,
+  summon: make
+});
+
+return UMW;
+
+})));
