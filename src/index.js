@@ -54,6 +54,9 @@ const make = (initialData, config = null) => {
     get states() {
       return Object.keys(states)
     },
+    get data() {
+      return data
+    },
     makeState,
     do: (action, ...args) => {
       const transitionList = currentState.transitions
