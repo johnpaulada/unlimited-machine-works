@@ -1,6 +1,6 @@
 {
   "name": "unlimited-machine-works",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The unlimited working 1KB state machine library for the web!",
   "main": "index.js",
   "devDependencies": {
