@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Basics": ["intro", "machines"],
+    "Basics": ["intro", "machines", "integrating-with-react"],
     "Examples": ["app-example"],
     "Advanced": ["dynamic-add-state"]
   },
