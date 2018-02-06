@@ -20,7 +20,15 @@
   <a href="https://deepscan.io/dashboard/#view=project&pid=1706&bid=7351">
     <img src="https://deepscan.io/api/projects/1706/branches/7351/badge/grade.svg" />
   </a>
-  <a href="https://codebeat.co/projects/github-com-johnpaulada-unlimited-machine-works-master"><img alt="codebeat badge" src="https://codebeat.co/badges/6f237813-7087-42b8-9736-514e569b950b" /></a>
+  <a href="https://codebeat.co/projects/github-com-johnpaulada-unlimited-machine-works-master">
+    <img alt="codebeat badge" src="https://codebeat.co/badges/6f237813-7087-42b8-9736-514e569b950b" />
+  </a>
+  <a href="https://www.jsdelivr.com/package/npm/unlimited-machine-works">
+    <img alt="JSDelivr" src="https://data.jsdelivr.com/v1/package/npm/unlimited-machine-works/badge" />
+  </a>
+  <a href="https://www.npmjs.com/package/unlimited-machine-works">
+    <img alt="npm" src="https://img.shields.io/npm/dt/unlimited-machine-works.svg?style=for-the-badge" />
+  </a>
 </div>
 
 <div align="center">
