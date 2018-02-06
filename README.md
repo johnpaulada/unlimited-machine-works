@@ -141,8 +141,8 @@ machine.addSubscriber((state, data) => {
 - [ ] Move `addSubscribers()` in to an *Adding Subscribers Dynamically* section
 - [ ] Add tests
 - [ ] Add status badges
-- [ ] Add flow
-- [ ] Create react-umw
+- [ ] Add Flow
+- [x] Create [react-umw](https://github.com/johnpaulada/react-umw)
 
 ## Inspired By
 - Stent
