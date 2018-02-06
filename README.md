@@ -27,7 +27,7 @@
     <img alt="JSDelivr" src="https://data.jsdelivr.com/v1/package/npm/unlimited-machine-works/badge" />
   </a>
   <a href="https://www.npmjs.com/package/unlimited-machine-works">
-    <img alt="npm" src="https://img.shields.io/npm/dt/unlimited-machine-works.svg?style=for-the-badge" />
+    <img alt="npm" src="https://img.shields.io/npm/dt/unlimited-machine-works.svg?style=flat-square" />
   </a>
 </div>
 
