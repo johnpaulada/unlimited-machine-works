@@ -49,7 +49,7 @@ When you think about it, web applications can be modeled as state machines. You 
 ## How to import
 ### Import on the browser
 ```html
-<script src="https://cdn.jsdelivr.net/npm/unlimited-machine-works@1.0.0/umw.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/unlimited-machine-works@1.1.3/umw.min.js" async></script>
 ```
 ### Import on Node
 ```js
