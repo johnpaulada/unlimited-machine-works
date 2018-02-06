@@ -7,10 +7,12 @@ sidebar_label: Integrating With React
 To integrate with React, we'll need the [react-umw](https://github.com/johnpaulada/react-umw) bindings. I've modeled it after the `react-redux` integration so it should be pretty similar. I built it like this so it would be similar to Redux and those familiar will won't have much problems using it.
 
 ## Installing
-Create a `react-umw` folder on your React project source directory. Then copy the `index.js`, `Provider.js`, and `connect.js` files from the `react-umw` repo into the newly created `react-umw` directory. After that's done, you can now import those like this:
+To install `react-umw`, run `yarn add react-umw`.
+
+After that, import the needed functions and components like this:
 
 ```js
-import { Provider, connect } from './react-umw';
+import { Provider, connect } from 'react-umw';
 ```
 
 ## Using your created machine in React
@@ -22,7 +24,7 @@ To do that, we'll pass the machine as props into a Provider component, much like
 ```js
 // App.js
 // ... Imports here
-import { Provider } from './react-umw'
+import { Provider } from 'react-umw'
 const UMW = require('unlimited-machine-works')
 
 class App extends Component {
@@ -66,7 +68,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
         <Provider machine={this.machine}>
           <Body />
         </Provider>
@@ -91,7 +93,7 @@ To have them passed so we can access them, we can use the `connect()` method, li
 ```js
 // Body.js
 // ... Imports
-import { connect } from './react-umw'
+import { connect } from 'react-umw'
 
 class Body extends Component {
   move = () => this.props.do('MOVE')
@@ -99,7 +101,7 @@ class Body extends Component {
 
   render() {
     return (
-      <p className="App-intro">
+      <p>
         {this.props.speed}
         <button onClick={this.move}>Move</button>
         <button onClick={this.accelerate}>Accelerate</button>
