@@ -141,6 +141,7 @@ machine.addSubscriber((state, data) => {
 ```
 
 ## Roadmap
+- [x] Create [react-umw](https://github.com/johnpaulada/react-umw)
 - [ ] Using asynchronous functions for subscribers and other things
 - [ ] Using Proxy objects to detect change
 - [ ] Data diffing
@@ -150,7 +151,7 @@ machine.addSubscriber((state, data) => {
 - [ ] Add tests
 - [ ] Add status badges
 - [ ] Add Flow
-- [x] Create [react-umw](https://github.com/johnpaulada/react-umw)
+- [ ] Add visualization
 
 ## Inspired By
 - Stent
