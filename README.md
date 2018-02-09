@@ -140,6 +140,10 @@ machine.addSubscriber((state, data) => {
 })
 ```
 
+## Graphics Credits
+
+Logo by my sister Jade Ada ([@paleportraits](https://www.instagram.com/blondiewiththebadhair/)).
+
 ## Roadmap
 - [x] Create [react-umw](https://github.com/johnpaulada/react-umw)
 - [ ] Using asynchronous functions for subscribers and other things
