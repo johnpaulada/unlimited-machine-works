@@ -149,7 +149,7 @@ Logo by my sister Jade Ada ([@blondiewiththebadhair](https://www.instagram.com/b
 
 ## Roadmap
 - [x] Create [react-umw](https://github.com/johnpaulada/react-umw)
-- [ ] Using asynchronous functions for subscribers and other things
+- [x] Using asynchronous functions for subscribers and other things
 - [ ] Using Proxy objects to detect change
 - [ ] Data diffing
 - [ ] Adding `summon()` flag for verbose errors
