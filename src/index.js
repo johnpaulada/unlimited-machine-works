@@ -67,7 +67,7 @@ const make = (initialData, config = null) => {
         currentState = result[0]
         data = result[1]
         subscribers.forEach(subscriber => {
-          subscriber(currentState.name, data)
+          (async () => subscriber(currentState.name, data))() 
         })
       }
     },
