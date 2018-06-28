@@ -3,16 +3,19 @@
   "version": "1.1.4",
   "description": "The unlimited working 1KB state machine library for the web!",
   "main": "index.js",
+  "module": "index.es.js",
+  "browser": "umw.min.js",
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "rollup-plugin-babel": "^3.0.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup-plugin-babel": "^3.0.5",
     "rollup-plugin-node-resolve": "^3.0.2",
     "rollup-plugin-uglify": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c && cp index.js umw.min.js",
+    "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
   "repository": {
