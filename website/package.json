@@ -6,7 +6,8 @@
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "deploy": "surge --domain https://unlimited-machine-works.surge.sh/ --project build/unlimited-machine-works"
   },
   "devDependencies": {
     "docusaurus": "^1.0.5"
