@@ -9,7 +9,7 @@ sidebar_label: Getting Started
 To get access to the Unlimited Machine Works library, you can use minified version on JSDelivr:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/unlimited-machine-works@1.1.4/umw.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/unlimited-machine-works@1.1.5/umw.min.js" async></script>
 ```
 
 After importing, you get a `UMW` object where you can do `UMW.summon()` or `UMW.make()` on.
