@@ -11,6 +11,7 @@
   <a href="http://forthebadge.com">
     <img src="http://forthebadge.com/images/badges/built-with-love.svg" />
   </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fjohnpaulada%2Funlimited-machine-works?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjohnpaulada%2Funlimited-machine-works.svg?type=shield"/></a>
   <a href="http://forthebadge.com">
     <img src="http://forthebadge.com/images/badges/uses-js.svg" />
   </a>
@@ -166,3 +167,5 @@ Logo by my sister Jade Ada ([@blondiewiththebadhair](https://www.instagram.com/b
 
 ## License
 MIT
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjohnpaulada%2Funlimited-machine-works.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjohnpaulada%2Funlimited-machine-works?ref=badge_large)
