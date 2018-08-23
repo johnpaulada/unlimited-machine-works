@@ -6,21 +6,28 @@ export default {
   output: [
     {
       file: 'index.js',
-      format: 'cjs'
+      format: 'cjs',
+      intro: "var regeneratorRuntime = require('regenerator-runtime');\n"
     },
     {
       file: 'index.es.js',
-      format: 'es'
+      format: 'es',
+      external: [ 'regenerator-runtime' ]
     },
     {
       file: 'umw.min.js',
       format: 'iife',
-      name: 'UMW'
+      name: 'UMW',
+      intro: "var regeneratorRuntime = require('regenerator-runtime');\n",
+      globals: {
+        "regenerator-runtime/runtime": "regeneratorRuntime"
+      }
     },
   ],
   plugins: [
     babel({
-      exclude: 'node_modules/**' // only transpile our source code
+      exclude: 'node_modules/**', // only transpile our source code,
+      runtimeHelpers: true
     }),
     uglify()
   ],

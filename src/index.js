@@ -1,3 +1,5 @@
+import regeneratorRuntime from 'regenerator-runtime/runtime'
+
 const make = (initialData, config = null) => {
   let states       = {}
   let data         = initialData || {}
